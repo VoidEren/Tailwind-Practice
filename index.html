@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    </head>
+<head>
     <link rel="stylesheet" href="./tailwind.css">
-    <body class="bg-gray-900">
-        <header class="bg-green-800 shadow px-8">
-            <div class="flex h-16 justify-between items-center">
-                <button>=</button>
-                <a href="#"> logo </a>
-                <div>
-                    <button> theme </button>
-                    <button> user </button>
-
-                </div>
+</head>
+<body class="bg-gray-900">
+    <header class="bg-green-800 shadow px-8">
+        <div class="flex h-16 justify-between items-center">
+            <button class="rounded text-cyan-500 transition-colors hover:bg-slate-900 hover:text-slate-100 focus:ring-2">
+                =
+            </button>
+            <a
+            class="text-sky-500 hover:rotate-6 duration-500" 
+            href="#">
+                MENU
+            </a>
+            <div>
+                <button>Theme User</button>
             </div>
-        </header>
-    </body>
-    </html>
+        </div>
+        <div class="space-y-1 pb-3 border-t pt-2 md:hidden ">
+        <a href="#" class=" block rounded-md px-3 py-2 bg-sky-500 hover:text-white"> 
+            Home </a>
+
+        <a href="#" class=" block px-3 py-2 text-slate-700 hover:bg-sky-500 hover:text-white rounded-md transition-colors"> 
+            About </a>
+
+        <a href="#" class=" block px-3 py-2 text-slate-700 hover:bg-sky-500 hover:text-white rounded-md transition-colors"> 
+            Blog </a>  
+            
+        <a href="#" class=" block px-3 py-2 text-slate-700 hover:bg-sky-500 hover:text-white rounded-md transition-colors"> 
+            Contact </a>
+        </div>
+    </header>
+</body>
+</html>
