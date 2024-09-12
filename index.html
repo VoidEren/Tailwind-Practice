@@ -121,29 +121,40 @@
       </div>
     </header>
     <main class="p-4">
-      <article>
-        <div><img src="/public/img/SRC-1.jpeg" alt="pozole" /></div>
-        <div>
-          <h3>Laravel</h3>
-          <h2>
+      <article class="bg-white shadow rounded overflow-hidden">
+        <div class="h-52">
+          <img
+            class="h-full w-full object-cover object-center"
+            src="/public/img/SRC-1.jpeg"
+            alt="pozole"
+          />
+        </div>
+        <div class="p-5 space-y-3">
+          <h3 class="text-sm font-semibold text-sky-500">Laravel</h3>
+          <h2 class="text-xl font-semibold text-slate-800 leading-tight">
             Desarrollo de una API con Laravel siguiendo la especificacion
             JSON:APÏ
           </h2>
-          <p>
+          <p class="text-slate-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             delectus maiores accusantium optio quae enim, doloribus eveniet
             officia minus fugit corrupti ipsam qui eius, mollitia pariatur rem
             ratione? Nisi, a?
           </p>
         </div>
-        <div>
+        <div class="flex p-5 space-x-2">
           <img
+            class="h-10 w-10 rounded-full"
             src="https://ui-avatars.com/api?name=Angel Espinosa"
             alt="Angel Espinosa"
           />
         </div>
-        <span> Angel Espinosa </span>
-        <span> September 9, 2024 </span>
+        <div class="flex flex-col justify-center">
+          <span class="font-semibold text-sm text-slate-600 leading-4">
+            Angel Espinosa
+          </span>
+          <span class="text-sm text-slate-500"> September 9, 2024 </span>
+        </div>
       </article>
     </main>
   </body>
